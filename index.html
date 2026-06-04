@@ -159,10 +159,10 @@
 
   <!-- Wistia -->
   <script src="https://fast.wistia.com/player.js" async></script>
-  <script src="https://fast.wistia.com/embed/eayr11kc10.js" async type="module"></script>
+  <script src="https://fast.wistia.com/embed/whi37ymnc1.js" async type="module"></script>
   <style>
-    wistia-player[media-id='eayr11kc10']:not(:defined) {
-      background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/eayr11kc10/swatch');
+    wistia-player[media-id='whi37ymnc1']:not(:defined) {
+      background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/whi37ymnc1/swatch');
       display: block;
       filter: blur(5px);
       padding-top: 178.06%;
@@ -178,7 +178,7 @@
 
   <section class="vsl-section">
     <div class="vsl-wrapper">
-      <wistia-player media-id="eayr11kc10" aspect="0.5616224648985959"></wistia-player>
+      <wistia-player media-id="whi37ymnc1" aspect="0.5616224648985959"></wistia-player>
     </div>
 
     <div class="cta-wrap" id="ctaWrap">
@@ -226,7 +226,7 @@
     function showCTA() { ctaWrap.classList.add('visible'); }
     const fallbackTimer = setTimeout(showCTA, 21 * 60 * 1000);
     window._wq = window._wq || [];
-    _wq.push({ id: 'eayr11kc10', onReady: function(video) {
+    _wq.push({ id: 'whi37ymnc1', onReady: function(video) {
       video.bind('secondchange', function(s) {
         if (s >= 1260) { showCTA(); clearTimeout(fallbackTimer); video.unbind('secondchange'); }
       });
