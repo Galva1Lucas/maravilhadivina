@@ -109,10 +109,10 @@
 
   <!-- Wistia -->
   <script src="https://fast.wistia.com/player.js" async></script>
-  <script src="https://fast.wistia.com/embed/whi37ymnc1.js" async type="module"></script>
+  <script src="https://fast.wistia.com/embed/le6x384w9v.js" async type="module"></script>
   <style>
-    wistia-player[media-id='whi37ymnc1']:not(:defined) {
-      background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/whi37ymnc1/swatch');
+    wistia-player[media-id='le6x384w9v']:not(:defined) {
+      background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/le6x384w9v/swatch');
       display: block;
       filter: blur(5px);
       padding-top: 178.06%;
@@ -123,12 +123,12 @@
 
   <section class="vsl-section">
     <div class="vsl-wrapper">
-      <wistia-player media-id="whi37ymnc1" aspect="0.5616224648985959"></wistia-player>
+      <wistia-player media-id="le6x384w9v" aspect="0.5616224648985959"></wistia-player>
     </div>
 
     <div class="cta-wrap" id="ctaWrap">
       <a class="cta-btn" href="https://go.perfectpay.com.br/PPU38CQCPPN" >
-        EU QUERO AGORA
+        QUERO ADQUIRIR E ATIVAR O PODER DE RECEBER AGORA
       </a>
     </div>
   </section>
@@ -176,11 +176,11 @@
     /* CTA TIMER — aparece em 30 minutos */
     const ctaWrap = document.getElementById('ctaWrap');
     function showCTA() { ctaWrap.classList.add('visible'); }
-    const fallbackTimer = setTimeout(showCTA, 30 * 60 * 1000);
+    const fallbackTimer = setTimeout(showCTA, 1302 * 1000); // 21:42
     window._wq = window._wq || [];
-    _wq.push({ id: 'whi37ymnc1', onReady: function(video) {
+    _wq.push({ id: 'le6x384w9v', onReady: function(video) {
       video.bind('secondchange', function(s) {
-        if (s >= 1800) { showCTA(); clearTimeout(fallbackTimer); video.unbind('secondchange'); }
+        if (s >= 1302) { showCTA(); clearTimeout(fallbackTimer); video.unbind('secondchange'); } // 21:42
       });
     }});
   </script>
